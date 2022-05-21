@@ -14,8 +14,24 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index');
+})->name('root');
+Route::get('/radiotherapy-accessories', function () {
+    return view('RadiotherapyAccessories');
+})->name('Radiotherapy_Accessories');
+Route::get('/immobolization', function () {
+    return view('immobolization');
+})->name('immobolization');
+
+Route::get('/contact-us', function () {
+    return view('contact');
+})->name('contact');
+Route::get('/gallery', function () {
+    return view('gallery');
+})->name('gallery');
+Route::get('/research-development', function () {
+    return view('research-development');
+})->name('research-development');
 
 Auth::routes();
 

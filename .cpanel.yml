@@ -1,0 +1,12 @@
+#---
+#deployment:
+#  tasks:
+#  - export DEPLOYPATH=/home/sdoziwycteqm/public_html #Add /<sub_folder> if required
+#    - /bin/cp -r * $DEPLOYPATH
+---
+deployment:
+  tasks:
+#    - export DEPLOYPATH=/home/e9icsekkebk2/public_html/salvasfoods
+    - export DEPLOYPATH=/home/firstgli/standardtechnologyusa
+    - /bin/cp -u -r * $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
