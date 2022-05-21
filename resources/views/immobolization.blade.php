@@ -1,231 +1,6 @@
 @extends('layouts.layout')
 
 @section('content')
-    <!--============= preloader area start here ===============-->
-    <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-            </div>
-        </div>
-    </div>
-    <!--============= preloader area end here ===============-->
-
-    <!--============= Nav Area start here ===============-->
-    <div class="total-content">
-        <div class="header-section">
-            <!-- search Popup -->
-            <div class="body-overlay" id="body-overlay"></div>
-            <div class="search-popup" id="search-popup">
-                <form action="http://zwin.io/html/jozicular/index.html" class="search-form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search.....">
-                    </div>
-                    <button class="submit-btn border-none"><i class=" flaticon-search"></i></button>
-                </form>
-            </div>
-            <!-- navbar -->
-            <nav class="navbar navbar-area navbar-expand-lg nav-style-01 nav-absolute  " style="background-color: white ;">
-                <div class="container nav-container">
-                    <div class="responsive-mobile-menu">
-                        <div class="logo-wrapper d-none d-lg-block">
-                            <a href="index-2.html" class="logo">
-                                <img src="assets/img/logo/logo.png" style="width:326px ;height : 60px" alt="logo">
-                            </a>
-                        </div>
-                        <div class="logo-wrapper d-block d-lg-none">
-                            <a href="index-2.html" class="logo">
-                                <img src="assets/img/logo/logo2.png" alt="logo">
-                            </a>
-                        </div>
-
-
-                        <div class="mobile-toggler">
-                            <a data-toggle="modal" data-target="#login-modal" href="#"><i
-                                    class="flaticon-user-1"></i></a>
-                        </div>
-                        <button class="navbar-toggler cross-menu" type="button" data-toggle="collapse"
-                                data-target="#lifeomic_main_menu" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="cross-menu-wrapper">
-                                <span class="bar1"></span>
-                                <span class="bar2"></span>
-                                <span class="bar3"></span>
-                            </span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="lifeomic_main_menu">
-                        <ul class="navbar-nav">
-
-                            <li><a href="index.html">Home</a></li>
-                            <!--                        <li><a href="about-us.html">About us</a></li>-->
-                            <li><a href="gallery.html">Gallery</a></li>
-
-                            <li class="menu-item-has-children"><a href="#">Products</a>
-                                <ul class="sub-menu">
-                                    <li><a href="research-development.html">Products List</a></li>
-                                    <li><a href="Radiotherapy%20Accessories.html">Radiotherapy Accessories</a></li>
-                                </ul>
-                            </li>
-
-
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </nav>
-
-        </div>
-        <!--SingUp Modal -->
-        <div class="login-modal modal fade" id="singup-modal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-custom" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="flaticon-close"></i>
-                        </button>
-                        <div class="login-form-section">
-                            <div class="container padding-0">
-                                <div class="row padding-0">
-                                    <div class="col-md-6 padding-0">
-                                        <div class="login-section grd-bg">
-                                            <div class="login-back">
-                                                <div class="login-content">
-                                                    <h2 class="title">Welcome back </h2>
-                                                    <p>To keep connected with us please login with your personal info
-                                                    </p>
-                                                </div>
-                                                <div class="btn-wrapper">
-                                                    <button class="boxed-btn" type="submit"><span>Sign
-                                                            In</span> </button>
-                                                </div>
-                                                <div class="img-wrap padding-top-50">
-                                                    <img src="assets/img/signup-login/dfoctor.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="reg-section">
-                                            <form class="login-form" action="http://zwin.io/html/jozicular/index.html">
-                                                <h2 class="title padding-bottom-30">Create account</h2>
-
-                                                <div class="form-group">
-                                                    <label for="name-form">Username or Email</label>
-                                                    <input id="name-form" type="text" class="form-control"
-                                                        placeholder="Username or Email">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="email-four">Email</label>
-                                                    <input id="email-four" type="text" class="form-control"
-                                                        placeholder="Email">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="password-four">Password</label>
-                                                    <input id="password-four" type="password" class="form-control"
-                                                        placeholder="Password">
-                                                </div>
-                                                <div class="btn-wrapper">
-                                                    <button class="boxed-btn" type="submit">Sign Up</button>
-                                                </div>
-                                                <br>
-                                                <p>Or</p>
-                                                <div class="social-icon ">
-                                                    <ul class="social-share">
-                                                        <li class="fb"><a href="#"><i class="flaticon-facebook"></i>
-                                                                Sign in with facebook</a></li>
-                                                        <li class="ggl"><a href="#">
-                                                                <img src="assets/img/icon-img/2.png" alt=""> Sign in
-                                                                with google
-                                                            </a></li>
-                                                    </ul>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Login Modal -->
-        <div class="login-modal modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-custom" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="flaticon-close"></i>
-                        </button>
-                        <div class="login-form-section">
-                            <div class="container padding-0">
-                                <div class="row padding-0">
-                                    <div class="col-md-6 padding-0">
-                                        <div class="login-section bg-grey">
-                                            <form class="login-form" action="http://zwin.io/html/jozicular/index.html">
-                                                <h2 class="title padding-bottom-30">Log In</h2>
-
-                                                <div class="form-group">
-                                                    <label for="email-three">Username or Email</label>
-                                                    <input id="email-three" type="text" class="form-control"
-                                                        placeholder="Username or Email">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="password-three">Password</label>
-                                                    <input id="password-three" type="password" class="form-control"
-                                                        placeholder="Password">
-                                                </div>
-                                                <a href="#" class="forget-btn">Forget password ? </a>
-                                                <div class="btn-wrapper">
-                                                    <button class="boxed-btn" type="submit"><span>LOG
-                                                            IN</span> </button>
-                                                </div>
-                                            </form>
-
-                                            <div class="social-icon light-bg">
-                                                <ul class="social-share ">
-                                                    <li class="fb"><a href="#"><i class="flaticon-facebook"></i> Sign in
-                                                            with facebook</a></li>
-                                                    <li class="ggl"><a href="#">
-                                                            <img src="assets/img/icon-img/2.png" alt=""> Sign in with
-                                                            google
-                                                        </a></li>
-                                                </ul>
-                                                <div class="new-user padding-top-30">
-                                                    <h6>New User ?</h6>
-                                                    <a href="#">Create a new account</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 padding-0">
-                                        <div class="reg-section bg-grey">
-                                            <div class="login-back">
-                                                <div class="img-wrap padding-bottom-50">
-                                                    <img src="assets/img/signup-login/sign-in.png" alt="">
-                                                </div>
-                                                <div class="login-content">
-                                                    <h4 class="title">Hi Dear ? Sign up to join us</h4>
-                                                </div>
-                                                <div class="btn-wrapper ">
-                                                    <button class="boxed-btn" type="submit"><span>SIGN
-                                                            UP</span> </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--============= Nav Area End here ===============-->
-
     <!--============= breadcrumb start here ===============-->
     <div class="breadcrumb-area pipeline-area-breadcrumb">
         <div class="nav-container">
@@ -237,6 +12,7 @@
                         <ul class="page-list white-effect">
                             <li><a href="index.html">Home</a></li>
                             <li class="current">Radiotherapy Accessories</li>
+                            <li><a href="index.html">Immobolization Devices</a></li>
                         </ul><!-- .breadcrumbs -->
                     </div>
                 </div>
@@ -252,26 +28,31 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Dosimetry (3D SCANNER™)</h2>
+                            <h2 class="title" style="color: black">Immobolization Devices</h2>
                         </div>
-                       <h2 style="color: black"> Efficient, Accurate, & Reproducible
-                           Water Tank Scanning</h2>
+                        <h2 style="color: black"> Klarity Supine Breast System</h2>
 
 
-                        <p>3D SCANNER’s AutoSetup automatically sets the detector position at the water surface and levels and aligns the tank in less than 20 minutes. This feature not only saves time, but also ensures tank measurements are reproducible regardless of user.
-                        Tank shifts take time and compromise the stability of the original scanning setup. Because of its cylindrical shape, 3D SCANNER enables a 65 cm scan range -- allowing full 40 x 40 cm field scans, even at 100 cm SSD and 30 cm depth. Its shape and size remove the need for tank shifts.
-
+                        <p>The Klarity Supine Breast System is a complete system for supine breast and torso positioning. It comes as a complete system and includes two arms cups, two wrist cups, two hand posts, a removable head cup, adjustable bottom-stopper, and a KneeFix Foam Cushion. An optional wing board and compatible vacuum bags are also available. The baseplate is made of durable, lightweight carbon fiber and includes a fiducial marker along the center for tracking the spine in relation to the baseplate.
                         </p>
 
                         <p class="highlight">
 
-                            <img src="assets/img/products/Radiology1.jpg" alt="">
+                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
+                        <ul>
+                            <li>131cm (Length) x 41cm (Width). </li>
+                            <li>Carbon Fiber.</li>
+                            <li>Maximum Height is 58.2cm at 25°.</li>
+                            <li>Compatible with the R612-BTCF WingSpan™ Baseplate.</li>
+                        </ul>
+
 
                     </div>
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/SMLumaGEM45angle-1.png.jpg" alt="">
+                        <img src="assets/img/products/breast board.jpg"  class="img
+" style="height: 500px" alt="">
                         <div class="circle">
                             <div class="circle-1">
                                 <div class="circle-2">
@@ -295,244 +76,86 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">ArcCHECK®</h2>
+                            <h2 class="title" style="color: black">WingSpan™ Baseplate</h2>
                         </div>
-                       <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>
+{{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
-                       <strong>Powerful Patient-Specific QA</strong><br>
-                        <p>ArcCHECK is recommended by AAPM Task Group 218 for 3D measurement requirements. It measures and correlates gantry angle, leaf-end position, absolute dose and time to identify any potential source of error throughout the patient volume.
-                            <br> <strong> Clinically Relevant Dose & DVH QA</strong><br>
+{{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The Klarity WingSpan™ Baseplate features secure arm support for upper body treatment and diagnostic procedures.It is comfortable and lightweight, and allows for easy transporting, indexing, and re-positioning, with low attenuation.
 
 
-                            Identify TPS and beam delivery errors. With a single click, compare measured dose points to planned dose points. Review individual control points and user-defined full or sub-arc sections for an in-depth overview of pass, low, and high dose results.
-                            <br> <strong> MLC Pattern Machine QA</strong><br>
+                        </p>
+                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
+                        <ul>
+                            <li>56.1cm (Length) x 58cm (Width)x 16.5cm (Height). </li>
+                            <li>Carbon Fiber.</li>
+                            <li>Also available as <strong>MR Compatible</strong></li>
+                            <li>Compatible with standard Silverman head supports</li>
+                            <li>Can be used alone and is also compatible</li>
+                        </ul>
+
+                        <p class="highlight">
+
+                            <!--                            <img src="assets/img/products/portable%20new.png" alt="">-->
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/wingspan.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+    <!--============= building pipeline area end here ===============-->
+    <!--============= building pipeline area start here ===============-->
+    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">Optek™ Overlay</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
-                            Further leverage your ArcCHECK for Machine QA tests by evaluating discrepancies between the planned and delivered MLC pattern and identifying leaves that may require service.
-
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The Klarity Optek™ Overlay is a comfortable and adaptable S-type Overlay for head and neck treatments. The lower portion gently tapers for patient comfort and the overlay is equipped with additional indexing around the edges. The Carbon Fiber Optek™ Overlay is extremely lightweight and CT-compatible.  Adjustable hand grips assist with shoulder retraction. The Optek™ Overlay is compatible with all S-Type Masks and is dual-configured for adult and pediatric patients.
 
 
                         </p>
 
-                        <p class="highlight">
-
-<!--                            <img src="assets/img/products/portable%20new.png" alt="">-->
 
                     </div>
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/portable%20new.png" alt="">
-<!--                        <div class="circle">-->
-<!--                            <div class="circle-1">-->
-<!--                                <div class="circle-2">-->
-<!--                                    <div class="circle-3">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--============= building pipeline area end here ===============-->
-
-    <!--============= building pipeline area start here ===============-->
-    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
-        <div class="nav-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Daily QA™ 3</h2>
+                        <img src="assets/img/products/Optek.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                       <h2 style="color: black"> Daily Beam Quality Analysis
-                           in One Measurement
-                       </h2>
-
-
-                       <strong>An Easy Handoff from Physicist to Therapist</strong><br>
-                        <p>Physicists are able to set up daily test templates for their modalities and machines which can then be used by a Therapist to easily conduct daily tests and automatically run pre-set templates.
-                            <br> <strong> Eliminate Back-and-Forth</strong><br>
-                            Simply enter the linac vault, position the device, turn the beam on and start the pre-set tests in the software – no warm-up or pre-irradiation required, and no additional trips to the vault needed.
-                            <br> <strong>Easy Setup</strong><br>
-
-                            Power Data Interface (PDI) is managed through Sun Nuclear's single-cable architecture.
-
-
-
-                        </p>
-
-                        <p class="highlight">
-
-                            <img src="assets/img/products/inter2.jpg" alt="">
-
-                    </div>
-                </div>
-                <div class="col-lg-6 md-pd-top-45">
-                    <div class="img-part">
-                        <img src="assets/img/products/interchange.jpg" alt="">
-<!--                        <div class="circle">-->
-<!--                            <div class="circle-1">-->
-<!--                                <div class="circle-2">-->
-<!--                                    <div class="circle-3">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--============= building pipeline area end here ===============-->
-
-   <!--============= building pipeline area start here ===============-->
-    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
-        <div class="nav-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">PC Electrometer™</h2>
-                        </div>
-                       <h2 style="color: black"> Portable, Reference-Class Electrometer
-                       </h2>
-
-                        <strong>Simple & Portable</strong>
-                        <p>Small and lightweight for easy transport, the PC Electrometer offers simple setup with a single USB cable connection for operation, and less than 1-minute warm-up time.</p>
-
-                        <br> <strong>Intuitive Software</strong><br>
-                        <p>SNC Dosimetry™ complements PC Electrometer with powerful analysis and smart features for enhanced efficiency.</p><br>
-                        •	<strong>Queues and projects</strong><br> for organizing and executing groups of scans, and tracking annual QA and commissioning
-                        <br> •	<strong>Multi-scan comparison tool </strong><br> for 1-click quantitative analysis across data sets
-                        <br>•	<strong>Searchable database </strong> <br>for easy access to data with the ability to share data among users
-                        <br>•	<strong>Processing layers </strong><br> for insights into each function along the scanning process, and ability to revert to earlier unprocessed data
-
-
-
-                        <p class="highlight">
-
-<!--                            <img src="assets/img/products/inter2.jpg" alt="">-->
-
-                    </div>
-                </div>
-                <div class="col-lg-6 md-pd-top-45">
-                    <div class="img-part">
-                        <img src="assets/img/products/graphics.png" alt="">
-<!--                        <div class="circle">-->
-<!--                            <div class="circle-1">-->
-<!--                                <div class="circle-2">-->
-<!--                                    <div class="circle-3">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--============= building pipeline area end here ===============-->
-    <!--============= building pipeline area start here ===============-->
-    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
-        <div class="nav-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">1D SCANNER™</h2>
-                        </div>
-                       <h2 style="color: black"> Accurate Point Dose &
-                           PDD Dosimetry Water Tank
-                       </h2>
-
-
-
-
-
-
-                       <br> <strong>Simple, Efficient Water Scanning</strong>
-                        <p> 1D SCANNER enables dosimetry measurements in water, including output factors, dose calibrations, annual, and routine QA. Collect PDD curves with optional SNC Dosimetry™ software and <strong><a href="https://www.sunnuclear.com/products/pc-electrometer">PC Electrometer™</a></strong> .</p>
-
-                        <br> <strong> Easy, Reproducible Setup</strong><br>
-                        <p> Setup is simple with a single power and data cable connection. Plus, a water surface detection feature automatically sets the dosimetry detector at the water surface, removing subjectivity. Control the tank in-room using the pendant or outside of the room using software.</p><br>
-
-
-                        <p class="highlight">
-
-<!--                            <img src="assets/img/products/inter2.jpg" alt="">-->
-
-                    </div>
-                </div>
-                <div class="col-lg-6 md-pd-top-45">
-                    <div class="img-part">
-                        <img src="assets/img/products/prob3.png" alt="">
-<!--                        <div class="circle">-->
-<!--                            <div class="circle-1">-->
-<!--                                <div class="circle-2">-->
-<!--                                    <div class="circle-3">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--============= building pipeline area end here ===============-->
-    <!--============= building pipeline area start here ===============-->
-    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
-        <div class="nav-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">SNC125c™ SNC350p™ SNC600c™</h2>
-                        </div>
-                       <h3 style="color: black"> Proven Reference Ion Chambers
-                       </h3>
-
-
-
-
-
-
-                       <br> <strong>Meet Requirements</strong>
-                        <p> Properly QA your linac, in accordance with the reference class and dosimetry protocols of IEC 60731, AAPM TG-51, and IAEA TRS-398.</p>
-
-                        <br> <strong>Reliable & Accurate</strong><br>
-                        <p> Reference-class ion chambers are vented, waterproof and fully guarded. A white chamber body makes visualization easy during setup and relative to cross hairs and lasers.</p><br>
-
-
-                        <p class="highlight">
-
-<!--                            <img src="assets/img/products/inter2.jpg" alt="">-->
-
-                    </div>
-                </div>
-                <div class="col-lg-6 md-pd-top-45">
-                    <div class="img-part">
-                        <img src="assets/img/products/prot5.png" alt="">
-<!--                        <div class="circle">-->
-<!--                            <div class="circle-1">-->
-<!--                                <div class="circle-2">-->
-<!--                                    <div class="circle-3">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
                     </div>
 
                 </div>
@@ -548,260 +171,41 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Solid Water® HE</h2>
+                            <h2 class="title" style="color: black">Klarity MultiFix™ Head-Only Baseplate</h2>
                         </div>
-                       <h3 style="color: black"> Reliable, Durable Water Equivalent Phantoms
-                       </h3>
-
-                       <br>
-                       <br>
-                        <strong>Depth Ionization Relative-to-Water</strong>
-
-                        <div class="WordSection1">
-
-                            <p class="MsoNormal">&nbsp;</p>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The Klarity MultiFix™ Head Only Baseplate is a lightweight and simple positioning solution for head placement. Made of strong and durable carbon fiber, the Head Only MultiFix™ is fully indexable, and compatible with both U-Frame and O-Type head masks.
 
-                            <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="805" style="width:603.75pt;background:white;border-collapse:collapse">
-                                <tbody><tr>
-                                    <td colspan="2" style="padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#111111">Depth Ionization Relative-to-Water</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border:none;border-top:solid #D8D8D8 1.0pt;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">Photons</span></p>
-                                    </td>
-                                    <td valign="top" style="border:none;border-top:solid #D8D8D8 1.0pt;padding:
-  0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">1.000 +/- 0.005</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border-top:solid #D8D8D8 1.0pt;
-  border-left:none;border-bottom:solid #D8D8D8 1.0pt;border-right:none;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">Electrons</span></p>
-                                    </td>
-                                    <td valign="top" style="border-top:solid #D8D8D8 1.0pt;border-left:none;
-  border-bottom:solid #D8D8D8 1.0pt;border-right:none;padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">1.000 +/- 0.005</span></p>
-                                    </td>
-                                </tr>
-                                </tbody></table>
+                        </p>
+                        <p>The baseplates can be used with standard Silverman headrests, and options are available for prone positioning. Heat-activated Klarity Cushions™ provide neck support and additional accessories are available, such as vacuum bags, carbon fiber and Silverman head rests, and indexing bars.
 
-                            <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
-display:none">&nbsp;</span></p>
+                        </p>
+                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
+                        <ul>
+                            <li>35.5cm (Length) x 25.5cm (Width). </li>
+                            <li>Carbon Fiber.</li>
+                            <li>Compatible with all standard U-frame and O-type masks.</li>
+                            <li>Compatible with the R605-HPCF Prone Head MultiFix™ (sold separately).</li>
+                        </ul>
 
-                            <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="805" style="width:603.75pt;background:white;border-collapse:collapse">
-                                <tbody><tr>
-                                    <td colspan="2" style="padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#111111">Density</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border:none;border-top:solid #D8D8D8 1.0pt;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">Mass Density (g/cm</span><sup><span style="font-size:5.5pt;
-  font-family:&quot;Helvetica&quot;,sans-serif;color:#707070">3</span></sup><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#707070">)</span></p>
-                                    </td>
-                                    <td valign="top" style="border:none;border-top:solid #D8D8D8 1.0pt;padding:
-  0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">1.032 +/- 0.005</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border:none;border-top:solid #D8D8D8 1.0pt;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">Electron Density (e-/cm</span><sup><span style="font-size:
-  5.5pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#707070">3</span></sup><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;color:#707070">NA)</span></p>
-                                    </td>
-                                    <td valign="top" style="border:none;border-top:solid #D8D8D8 1.0pt;padding:
-  0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">0.557 +/- 0.001</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border-top:solid #D8D8D8 1.0pt;
-  border-left:none;border-bottom:solid #D8D8D8 1.0pt;border-right:none;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">Solid Water HE / Water Electron Density Ratio</span></p>
-                                    </td>
-                                    <td valign="top" style="border-top:solid #D8D8D8 1.0pt;border-left:none;
-  border-bottom:solid #D8D8D8 1.0pt;border-right:none;padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">1.000 +/- 0.005</span></p>
-                                    </td>
-                                </tr>
-                                </tbody></table>
-
-                            <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;
-display:none">&nbsp;</span></p>
-
-                            <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="805" style="width:603.75pt;background:white;border-collapse:collapse">
-                                <tbody><tr>
-                                    <td colspan="2" style="padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#111111">Standard Sizes Available</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border:none;border-top:solid #D8D8D8 1.0pt;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">30 cm x 30 cm</span></p>
-                                    </td>
-                                    <td valign="top" style="border:none;border-top:solid #D8D8D8 1.0pt;padding:
-  0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">0.1 cm, 0.2 cm, 0.3 cm, 0.5 cm, 1.0 cm, 2.0 cm, 3.0 cm, 4.0
-  cm, 5.0 cm, 6.0 cm</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border:none;border-top:solid #D8D8D8 1.0pt;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">40 cm x 40 cm</span></p>
-                                    </td>
-                                    <td valign="top" style="border:none;border-top:solid #D8D8D8 1.0pt;padding:
-  0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">0.2 cm, 0.3 cm, 0.5 cm, 1.0 cm, 2.0 cm, 3.0 cm, 4.0 cm, 5.0 cm</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border:none;border-top:solid #D8D8D8 1.0pt;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">30 cm x 35.2 cm*</span></p>
-                                    </td>
-                                    <td valign="top" style="border:none;border-top:solid #D8D8D8 1.0pt;padding:
-  0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">0.5 cm, 1.0 cm, 2.0 cm</span></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="268" valign="top" style="width:201.25pt;border:none;border-top:solid #D8D8D8 1.0pt;
-  padding:0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">35.3 cm x 36.7 cm**</span></p>
-                                    </td>
-                                    <td valign="top" style="border:none;border-top:solid #D8D8D8 1.0pt;padding:
-  0in 0in 0in 0in">
-                                        <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal"><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
-  color:#707070">0.2 cm, 0.3 cm, 0.5 cm, 1.0 cm, 2.0 cm, 3.0 cm, 4.0 cm, 5.0 cm</span></p>
-                                    </td>
-                                </tr>
-                                </tbody></table>
-
-                        </div>
-
-
-                        <p class="highlight">
-
-<!--                            <img src="assets/img/products/inter2.jpg" alt="">-->
 
                     </div>
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/water.png" alt="">
-<!--                        <div class="circle">-->
-<!--                            <div class="circle-1">-->
-<!--                                <div class="circle-2">-->
-<!--                                    <div class="circle-3">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
-        <div class="nav-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">SunCHECK™ Patient</h2>
+                        <img src="assets/img/products/Klarity MultiFix™ Head-Only Baseplate.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                       <h3 style="color: black">Independent Patient QA in a Single Workflow
-                       </h3>
-
-
-
-
-
-
-                       <br> <strong>Purposefully Automated</strong>
-
-                        <p> SunCHECK Patient streamlines data transfer and time-consuming tasks, enabling greater focus on improved treatment quality.</p>
-
-                        <br> <strong>Common Analysis Tools & Centralized Storage of Results</strong><br>
-                        <p> In support of standardization, SunCHECK Patient provides common analyses across each Patient QA phase -- and stores all results for easy retrieval and review.</p><br>
-<br> <strong>Custom-Fit for Your Clinic</strong><br>
-                        <p>We optimize SunCHECK Patient for the planning and delivery technologies you use -- and provide flexible, automated analysis options for every step. As updates occur and your needs evolve, SunCHECK Patient adapts.</p><br>
-
-
-                        <p class="highlight">
-
-<!--                            <img src="assets/img/products/inter2.jpg" alt="">-->
-
-                    </div>
-                </div>
-                <div class="col-lg-6 md-pd-top-45">
-                    <div class="img-part">
-                        <img src="assets/img/products/SunCHECK.png" alt="">
-<!--                        <div class="circle">-->
-<!--                            <div class="circle-1">-->
-<!--                                <div class="circle-2">-->
-<!--                                    <div class="circle-3">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
                     </div>
 
                 </div>
@@ -810,4 +214,277 @@ display:none">&nbsp;</span></p>
 
     </section>
     <!--============= building pipeline area end here ===============-->
+
+   <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">Prone Head MultiFix™</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The Klarity Prone Head MultiFix™ is a lightweight, easily adjustable option for prone head placement that fits on top of the Head Only MultiFix™.
+
+                        </p>
+
+                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
+                        <ul>
+                            <li>35.8cm (Length) x 25.7cm (Width). </li>
+                            <li>Carbon Fiber.</li>
+                            <li>Cleanable cushion for forehead and chin.</li>
+                            <li>Compatible with the R605-HCF Head Only MultiFix™.</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/Prone Head MultiFix™.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+
+   <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">Leg Positioner</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The Klarity Leg Positioner is a comfortable and simple system for indexing the lower extremities. The system indexes to any couch top, and can be combined with other immobilization systems for compatible positioning.
+
+                        </p> <p>The Klarity Leg Positioner is a complete set that includes baseplate, leg support, two elevation blocks, foot cushion, and hand grips.  Sturdy foam cushions reduce patient fatigue, and the angle of the feet is fully indexable and adjustable. The acrylic hand grips are a comfortable option for shoulder suppression, and the ball and socket locking feature allows for reproducible tension in 5cm increments. Two elevation blocks are included for height adjustment. The KneeFix Cushion and Elevation Cushions can also be indexed directly to the couch top.
+                        </p>
+
+                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
+                        <ul>
+                            <li>86.4cm (Length) x 44.5cm (Width) x 26.7cm (Max Height).</li>
+                            <li>Elevation wedges at 10/20/30.</li>
+                            <li>Carbon Fiber.</li>
+                            <li>Also available as MR Compatible.</li>
+                            <li>Included Elements:</li>
+                            <ul>
+                                <li>Baseplate.</li>
+                                <li>KneeFix Cushion.</li>
+                                <li>Two Elevation Cushions.</li>
+                                <li>Foot Cushion.</li>
+                                <li>Optional Handgrips.</li>
+                            </ul>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/Leg Positioner.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+<section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">TIMO HEAD REST</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>Carbon Fiber Head Supports fit a variety of tabletop and couch types. They can be ordered individually, or as a set of six for all different heights. Carbon Fiber  Head Supports index to standard silverman pins, and can be used with any baseplate that uses standard silvermans. The carbon fiber material is extra durable and lightweight.
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/Carbon Fiber Head.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+
+<section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">Prone Head Support</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The NEW Klarity Prone Head Support offers comfortable prone positioning by supporting the forehead, cheeks and chin, without compressing the area around the eyes, nose, and mouth. The Prone Head Support cushion is attached to an acrylic plate that indexes to standard silverman pins. It is compatible with any prone positioning baseplate that uses silverman pins for indexing.</p>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/p5.png" alt="" class="img
+" style="height: 630px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+<section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">SRS Adaptor for Civco S-type baseplates</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The Klarity SRS Adaptor is a simple attachment that fits on top of your existing s-type baseplate. The SRS Adaptor clicks into standard S-type mask holes of the baseplate just like a mask.</p> <p>With the Adaptor in place, both bottom and top Klarity SRS masks can be easily and securely attached. Mask height can be adjusted between 0-4mm at each pin location using the Simple Shim System™, included with Klarity SRS Masks.</p><p>Our SRS Adaptor is ideal for clinics that want high precision SRS treatment but without the price tag and complexity of a complete baseplate system. The Klarity SRS Adaptor is compatible with standard S-type baseplates as well as standard Silverman head supports. It is compatible with Klarity SRS Masks (S-2000).</p>
+                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
+                        <ul>
+                            <li>Compatible with standard S-type Baseplates.</li>
+                            <li>Compatible with Klarity SRS Masks (S-2000).</li>
+                        </ul>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/SRS Adaptor for Civco S-type baseplates.png" alt="" class="img
+" style="height: 600px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+
+<section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">CERRO® BEND ALLOYS</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>CERRO® products are low melting temperature alloys used as thermal fusibles for forming or temporarily fixing parts. They are used in applications such as eyewear, the manufacture of spatial parts and aeronautics. The METACONCEPT Group offers a range of specific alloys whose melting temperatures, guaranteed by the precise composition of the alloy, provides the behavioural change required (solidus/liquidus) in safety systems or when forming parts in industrial or medical fields. These products are supplied as bars or small ingots; they can also be manufactured in the form of sticks, flat bars or large ingots. Fusible alloys undergo dimensional changes (expansion/shrinkage) depending on the casting and cooling time. Generally, fast casting with a cooling time of less than 15 minutes optimises stability.</p>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/p head 3.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+
+
+
+
+
 @endsection

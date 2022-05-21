@@ -11,6 +11,7 @@
                         <ul class="page-list white-effect">
                             <li><a href="index.html">Home</a></li>
                             <li class="current">Radiotherapy Accessories</li>
+                            <li class="current">Dosimetry</li>
                         </ul><!-- .breadcrumbs -->
                     </div>
                 </div>
@@ -39,13 +40,13 @@
 
                         <p class="highlight">
 
-                            <img src="assets/img/products/Radiology1.jpg" alt="">
+{{--                            <img src="assets/img/products/Radiology1.jpg" alt="">--}}
 
                     </div>
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/SMLumaGEM45angle-1.png.jpg" alt="">
+                        <img src="assets/img/products/Dosimetry.png" alt="">
                         <div class="circle">
                             <div class="circle-1">
                                 <div class="circle-2">
@@ -54,6 +55,8 @@
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
 
                 </div>
