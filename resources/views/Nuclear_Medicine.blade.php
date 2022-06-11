@@ -8,11 +8,11 @@
                 <div class="col-lg-7"></div>
                 <div class="col-lg-5">
                     <div class="breadcrumb-inner dark-blue">
-                        <h3 class="page-title white-effect">Radiotherapy Accessories</h3>
+                        <h3 class="page-title white-effect">Nuclear Medicine</h3>
                         <ul class="page-list white-effect">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="current">Radiotherapy Accessories</li>
-                            <li><a href="index.html">Immobolization Devices</a></li>
+                            <li><a href="{{route('root')}}">Home</a></li>
+                            <li class="current">Nuclear Medicine</li>
+
                         </ul><!-- .breadcrumbs -->
                     </div>
                 </div>
@@ -31,8 +31,9 @@
                             <h2 class="title" style="color: black">ISOMED 2010
 
                             </h2>
+                            <h3 style="color: black"> DOSE CALIBRATOR</h3>
                         </div>
-                        <h2 style="color: black"> DOSE CALIBRATOR</h2>
+
 
 
                         <p>For over 60 years, we have been developing and assembling high quality dose calibrators, which makes us one of the most experienced manufacturers of these products.
@@ -96,9 +97,73 @@
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
+                                <td>Energy range for Gamma sources 		</td>
+                                <td>25 keV to 3 MeV </td>
+                                <td>//</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Measurement time </td>
+                                <td>With change of measuring range 2 s - 15 s Without
+                                    change of measuring range 1 s - 3 s
+                                </td>
+                                <td>//</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Basic error 					 </td>
+                                <td>± 5 %</td>
+                                <td>//</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Measured value display 					 </td>
+                                <td>4-digit with display of unit, isotope, chemical
+                                    compound, container and content
+                                </td>
+                                <td>//</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Stored isotope table 						 </td>
+                                <td>Ba-140, C-11, Co-57, Co-58, Co-60, Cr-51, Cs-137, </td>
+                                <td>Cu-64, Er-169, F-18, Fe-59, Ga-67, Ga-68, Hg-197, I-123, I-124, I-125, I-131, In-111, In-113m, Ir-192, Lu-177, Mn-54, Mo-99, N-13, O-15, Ra-223, Re-186, Re-188, Se-75, Sm-153, Sr-89, Tc-99m, Tl-201, Xe-133, Y-86, Y-90, Yb-169 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Containers 					 </td>
+                                <td>Injection syringes 1 ml, 2 ml, 3 ml, 5 ml, 10 ml, 20 ml Bottles 2 ml, 5 ml, 10 ml (P6), 15 ml, 20 ml Ampoules 5 ml Capsules for Co-57, Co-58, I-131 Tightly enclosed for Cs-137, I-125, Ir-192 Content (sample quantity) 0.1 ml – 99.9 ml <td>
+                                <td>//</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Measurement chamber 							 </td>
+                                <td>Chamber Ø 120 mm, measuring chute Ø 47 mm </td>
+                                <td>//</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Dimensions 							 </td>
+                                <td>shielding 4 mm Pb basic shielding, additional shielding 20 mm or 50 mm </td>
+                                <td>//</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>
+                                PC system
+                                </td>
+                                <td>NetTop, from Windows 10**</td>
+                                <td>//</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td>
+                                    Monitor
+                                </td>
+                                <td>Standard TFT monitor or touch screen monitor</td>
+                                <td>//</td>
+
                             </tr>
                             </tbody>
                         </table>
@@ -133,26 +198,27 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">WingSpan™ Baseplate</h2>
+                            <h2 class="title" style="color: black">
+                                SYRSHIELD
+                            </h2>
+                            <h3 style="color: black"> TUNGSTEN SYRINGE SHIELDING CASES</h3>
                         </div>
-                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
 
 
                         {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>The Klarity WingSpan™ Baseplate features secure arm support for upper body treatment and diagnostic procedures.It is comfortable and lightweight, and allows for easy transporting, indexing, and re-positioning, with low attenuation.
+                        <p>Significant reduction of the radiation exposure, especially the partial body dose of the hands.</p>
+                            <p>Designed for various syringe types with different lock systems (also for PET-applications).
+                            </p>
+                        <p> Versions with clip lock, screw or bayonet lock and fitted lead glass window as well as plexi glass syringe shieldings for β-emitting nuclides.</p>
+
+
 
 
                         </p>
-                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
-                        <ul>
-                            <li>56.1cm (Length) x 58cm (Width)x 16.5cm (Height). </li>
-                            <li>Carbon Fiber.</li>
-                            <li>Also available as <strong>MR Compatible</strong></li>
-                            <li>Compatible with standard Silverman head supports</li>
-                            <li>Can be used alone and is also compatible</li>
-                        </ul>
 
-                        <p class="highlight">
+
+
 
                             <!--                            <img src="assets/img/products/portable%20new.png" alt="">-->
 
@@ -160,8 +226,8 @@
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/wingspan.jpg" alt="" class="img
-" style="height: 500px">
+                        <img src="assets/img/products/SYRSHIELD.jpg" alt="" class="img
+" style="height: 360px">
                         <div class="circle">
                             <div class="circle-1">
                                 <div class="circle-2">
@@ -187,13 +253,16 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Optek™ Overlay</h2>
+                            <h2 class="title" style="color: black">SYRCASE</h2>
+                            <h3 class="title" style="color: black">LEAD SYRINGE SHIELDING CASE</h3>
                         </div>
                         {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
                         {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>The Klarity Optek™ Overlay is a comfortable and adaptable S-type Overlay for head and neck treatments. The lower portion gently tapers for patient comfort and the overlay is equipped with additional indexing around the edges. The Carbon Fiber Optek™ Overlay is extremely lightweight and CT-compatible.  Adjustable hand grips assist with shoulder retraction. The Optek™ Overlay is compatible with all S-Type Masks and is dual-configured for adult and pediatric patients.
+                        <p>Significant reduction of radiation exposure, especially partial body dose of the hands</p>
+                        <p>  Designed for various syringe types with different lock systems (also for PET-applications)</p>
+                        <p>Versions with clip lock, screw or bayonet lock and fitted lead glass window as well as plexi glass syringe shieldings for β-emitting nuclides</p>
 
 
                         </p>
@@ -203,7 +272,7 @@
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/Optek.jpg" alt="" class="img
+                        <img src="assets/img/products/LEAD SYRINGE SHIELDING CASE.jpg" alt="" class="img
 " style="height: 500px">
                         <div class="circle">
                             <div class="circle-1">
@@ -227,33 +296,33 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Klarity MultiFix™ Head-Only Baseplate</h2>
+                        <div class="section-title text-left ">
+                            <h2 class="title" style="color: black">TROLLEY
+                            </h2>
+                            <h3>
+                                LEAD-SHIELDED LABORATORY TROLLEY
+                            </h3>
                         </div>
                         {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
                         {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>The Klarity MultiFix™ Head Only Baseplate is a lightweight and simple positioning solution for head placement. Made of strong and durable carbon fiber, the Head Only MultiFix™ is fully indexable, and compatible with both U-Frame and O-Type head masks.
+                        <p>
+                            Manual trolley designed for transportation of PET radiopharmaceuticals
+                            Lead shielding: 70 mm
+                            Covered with stainless steel coating
+                            Inner layout optimised to minimise irradiation of staff
+
 
                         </p>
-                        <p>The baseplates can be used with standard Silverman headrests, and options are available for prone positioning. Heat-activated Klarity Cushions™ provide neck support and additional accessories are available, such as vacuum bags, carbon fiber and Silverman head rests, and indexing bars.
 
-                        </p>
-                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
-                        <ul>
-                            <li>35.5cm (Length) x 25.5cm (Width). </li>
-                            <li>Carbon Fiber.</li>
-                            <li>Compatible with all standard U-frame and O-type masks.</li>
-                            <li>Compatible with the R605-HPCF Prone Head MultiFix™ (sold separately).</li>
-                        </ul>
 
 
                     </div>
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/Klarity MultiFix™ Head-Only Baseplate.jpg" alt="" class="img
+                        <img src="assets/img/products/LEAD-SHIELDED LABORATORY TROLLEY.jpg" alt="" class="img
 " style="height: 500px">
                         <div class="circle">
                             <div class="circle-1">
@@ -278,126 +347,28 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Prone Head MultiFix™</h2>
+                            <h2 class="title" style="color: black">CONT</h2>
+                            <h3 style="color: black"> LEAD CONTAINERS FOR RADIOACTIVE MATERIALS</h3>
                         </div>
-                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
 
 
                         {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>The Klarity Prone Head MultiFix™ is a lightweight, easily adjustable option for prone head placement that fits on top of the Head Only MultiFix™.
+                        <p> Complete construction made of stainless steel
+                            Integrated lead shielding (sandwich construction – no visible lead)
+                            Container shape, size and shielding thickness as desired, production according to customer-specific requirements
+                            Various designs and possibilities according to particular field of use
+                            </h3>
 
                         </p>
 
-                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
-                        <ul>
-                            <li>35.8cm (Length) x 25.7cm (Width). </li>
-                            <li>Carbon Fiber.</li>
-                            <li>Cleanable cushion for forehead and chin.</li>
-                            <li>Compatible with the R605-HCF Head Only MultiFix™.</li>
-                        </ul>
 
 
                     </div>
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/Prone Head MultiFix™.jpg" alt="" class="img
-" style="height: 500px">
-                        <div class="circle">
-                            <div class="circle-1">
-                                <div class="circle-2">
-                                    <div class="circle-3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--============= building pipeline area end here ===============-->
-
-
-    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
-        <div class="nav-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Leg Positioner</h2>
-                        </div>
-                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
-
-
-                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>The Klarity Leg Positioner is a comfortable and simple system for indexing the lower extremities. The system indexes to any couch top, and can be combined with other immobilization systems for compatible positioning.
-
-                        </p> <p>The Klarity Leg Positioner is a complete set that includes baseplate, leg support, two elevation blocks, foot cushion, and hand grips.  Sturdy foam cushions reduce patient fatigue, and the angle of the feet is fully indexable and adjustable. The acrylic hand grips are a comfortable option for shoulder suppression, and the ball and socket locking feature allows for reproducible tension in 5cm increments. Two elevation blocks are included for height adjustment. The KneeFix Cushion and Elevation Cushions can also be indexed directly to the couch top.
-                        </p>
-
-                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
-                        <ul>
-                            <li>86.4cm (Length) x 44.5cm (Width) x 26.7cm (Max Height).</li>
-                            <li>Elevation wedges at 10/20/30.</li>
-                            <li>Carbon Fiber.</li>
-                            <li>Also available as MR Compatible.</li>
-                            <li>Included Elements:</li>
-                            <ul>
-                                <li>Baseplate.</li>
-                                <li>KneeFix Cushion.</li>
-                                <li>Two Elevation Cushions.</li>
-                                <li>Foot Cushion.</li>
-                                <li>Optional Handgrips.</li>
-                            </ul>
-
-
-                    </div>
-                </div>
-                <div class="col-lg-6 md-pd-top-45">
-                    <div class="img-part">
-                        <img src="assets/img/products/Leg Positioner.jpg" alt="" class="img
-" style="height: 500px">
-                        <div class="circle">
-                            <div class="circle-1">
-                                <div class="circle-2">
-                                    <div class="circle-3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--============= building pipeline area end here ===============-->
-
-    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
-        <div class="nav-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content-part">
-                        <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">TIMO HEAD REST</h2>
-                        </div>
-                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
-
-
-                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>Carbon Fiber Head Supports fit a variety of tabletop and couch types. They can be ordered individually, or as a set of six for all different heights. Carbon Fiber  Head Supports index to standard silverman pins, and can be used with any baseplate that uses standard silvermans. The carbon fiber material is extra durable and lightweight.
-
-
-
-                    </div>
-                </div>
-                <div class="col-lg-6 md-pd-top-45">
-                    <div class="img-part">
-                        <img src="assets/img/products/Carbon Fiber Head.jpg" alt="" class="img
+                        <img src="assets/img/products/CONT.jpg" alt="" class="img
 " style="height: 500px">
                         <div class="circle">
                             <div class="circle-1">
@@ -423,13 +394,65 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">Prone Head Support</h2>
+                            <h2 class="title" style="color: black">BIN
+                            </h2>
+                            <h3 class="title" style="color: black">LEAD SHIELDED WASTE BIN
+                            </h3>
                         </div>
                         {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
                         {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>The NEW Klarity Prone Head Support offers comfortable prone positioning by supporting the forehead, cheeks and chin, without compressing the area around the eyes, nose, and mouth. The Prone Head Support cushion is attached to an acrylic plate that indexes to standard silverman pins. It is compatible with any prone positioning baseplate that uses silverman pins for indexing.</p>
+                        <p>Complete construction made of stainless steel
+                            Integrated lead shielding (sandwich construction)
+                            Shape, size and shielding thickness upon customer‘s specifications
+                            Various types and shapes of opening lids.
+
+
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/LEAD SHIELDED WASTE BIN.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">CASTLE</h2>
+                            <h3 class="title" style="color: black">LABORATORY LEAD CASTLE</h3>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>For body protection, a U-formed or completely closed lead castle is built on the work bench.
+                            Protected by the shielding, radiopharmaceuticals can be handled this way.
+                            The  lead shielding consists of lead components according to DIN 25407, e.g. with 50 mm shielding capacity.
+                            The lead shielding can be expanded by a lead glass window to be mounted.
+
 
 
 
@@ -437,7 +460,51 @@
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/p5.png" alt="" class="img
+                        <img src="assets/img/products/LABORATORY LEAD CASTLE.jpg" alt="" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+
+    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">BENCH</h2>
+                            <h3 class="title" style="color: black">LABORATORY WORK BENCH</h3>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>The work bench consists of a stable steel frame construction to carry heavy objects (up to 850 kg/m²), e.g. lead shielding, Tc-generators, etc.
+                            In accordance with the standards for working with unsealed radioactive materials, the stainless steel table plate is provided with a raised profle edge (8 mm) on all sides.
+                            Beside standard dimensions we can also supply work benches with customer-specific dimensions.
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/LABORATORY WORK BENCH.jpg" alt="" class="img
 " style="height: 630px">
                         <div class="circle">
                             <div class="circle-1">
@@ -460,18 +527,14 @@
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">SRS Adaptor for Civco S-type baseplates</h2>
+                            <h2 class="title" style="color: black">Dexa Scanner / Bone Densitometer</h2>
                         </div>
                         {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
                         {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>The Klarity SRS Adaptor is a simple attachment that fits on top of your existing s-type baseplate. The SRS Adaptor clicks into standard S-type mask holes of the baseplate just like a mask.</p> <p>With the Adaptor in place, both bottom and top Klarity SRS masks can be easily and securely attached. Mask height can be adjusted between 0-4mm at each pin location using the Simple Shim System™, included with Klarity SRS Masks.</p><p>Our SRS Adaptor is ideal for clinics that want high precision SRS treatment but without the price tag and complexity of a complete baseplate system. The Klarity SRS Adaptor is compatible with standard S-type baseplates as well as standard Silverman head supports. It is compatible with Klarity SRS Masks (S-2000).</p>
-                        <h3 style="color: black" class="mt-4"> SPECIFICATIONS</h3>
-                        <ul>
-                            <li>Compatible with standard S-type Baseplates.</li>
-                            <li>Compatible with Klarity SRS Masks (S-2000).</li>
-                        </ul>
+                        <p>Unigamma M is the newest multi-detector, fan beam  Bone Densitometer DEXA (Dual Energy X-ray Absorptiometry) manufactured by l'acn. The 3 or 5 channels architecture allows reduced scan times and better image resolution. Moreover, the small fan-beam configuration minimizes the geometrical distortion, ever on whole body scans. For special applications, it is also possible to use the unit i a pencil-beam mode, using only the central channel.</p>
+
 
 
 
@@ -480,7 +543,7 @@
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/SRS Adaptor for Civco S-type baseplates.png" alt="" class="img
+                        <img src="assets/img/products/Dexa Scanner Bone Densitomete.jpg" alt="" class="img
 " style="height: 600px">
                         <div class="circle">
                             <div class="circle-1">
@@ -500,19 +563,25 @@
     <!--============= building pipeline area end here ===============-->
 
 
+
+    <!--============= building pipeline area end here ===============-->
+
+    <!--============= building pipeline area end here ===============-->
+
+
     <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
         <div class="nav-container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="content-part">
                         <div class="section-title text-left padding-bottom-30">
-                            <h2 class="title" style="color: black">CERRO® BEND ALLOYS</h2>
+                            <h2 class="title" style="color: black">Thyroid Uptake System</h2>
                         </div>
                         {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
 
 
                         {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
-                        <p>CERRO® products are low melting temperature alloys used as thermal fusibles for forming or temporarily fixing parts. They are used in applications such as eyewear, the manufacture of spatial parts and aeronautics. The METACONCEPT Group offers a range of specific alloys whose melting temperatures, guaranteed by the precise composition of the alloy, provides the behavioural change required (solidus/liquidus) in safety systems or when forming parts in industrial or medical fields. These products are supplied as bars or small ingots; they can also be manufactured in the form of sticks, flat bars or large ingots. Fusible alloys undergo dimensional changes (expansion/shrinkage) depending on the casting and cooling time. Generally, fast casting with a cooling time of less than 15 minutes optimises stability.</p>
+                        <p>MONOGAMMA Thyroid Uptake System is produced in two versions: one with moving collimator and one with static collimator. Both versions are equipped with GAMMAINTERFACE I/O unit, which allows data transmission between the 2" x 2” NaI(Tl) probe and a Personal Computer. The WUPTAKE software, supplied withMONOGAMMA runs under WINDOWS XP operating system and allows data acquisition and graphical elaboration, to organize a patients database and to perform a spectrum analysis  of any radioactive isotope wich may be employed..</p>
 
 
 
@@ -520,8 +589,155 @@
                 </div>
                 <div class="col-lg-6 md-pd-top-45">
                     <div class="img-part">
-                        <img src="assets/img/products/p head 3.jpg" alt="" class="img
+                        <img src="assets/img/products/Thyroid Uptake System.jpg" alt="" class="img
 " style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+    <!--============= building pipeline area end here ===============-->
+
+
+    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">TLC Radiochromatography</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>MONOGAMMA Thyroid Uptake System is produced in two versions: one with moving collimator and one with static collimator. Both versions are equipped with GAMMAINTERFACE I/O unit, which allows data transmission between the 2" x 2” NaI(Tl) probe and a Personal Computer. The WUPTAKE software, supplied withMONOGAMMA runs under WINDOWS XP operating system and allows data acquisition and graphical elaboration, to organize a patients database and to perform a spectrum analysis  of any radioactive isotope wich may be employed.By a built in MCA analyser, MULTICROMATOGAMMA 1024 ensures a comprehensive quality control, both for the chemical composition of the marker and the energy of the emission (i.e. , for the research of possible radioactive impurities in the compound).
+
+                            </p>
+                        <ul>
+
+                            <li>1024 acquisition channels</li>
+                            <li>Measurements of Low / Medium / High Energy</li>
+                            <li>Advanced software for Windows Operating Systems (including Windows 8)</li>
+                            <li>Search of Purity radionuclide (Mo99)</li>
+                            <li>Data Base of the measurements</li>
+                            <li>Traceability absolute in reports</li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/TLC Radiochromatography.jpg" alt="TLC Radiochromatography" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+    <!--============= building pipeline area end here ===============-->
+
+
+    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">Shielded Manipulation Cell</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>gammaCell Twin is a manipulation cell of radiopharmaceuticals in double chamber.
+                            It is designed to allow the manipulation of radiopharmaceuticals preparations in accordance with the GMP (Good Manufacturing Practice), namely,  in safe conditions for both the operators and the patients.  gammaCell Twin is made up of two adjacent manipulation cells connected by a pass-through chamber, allowing to insert syringes or containers of radiopharmaceutical preparations.
+                            One workspace can be set to be used as an isolator, and the second one can be used for conventional kit preparations and as pre-chamber for the isolator.
+                            An Automatic Fractioning System, can be optionally  housed in the hot cell,  making  it easy to prepare the doses to be used in the daily practice of the Nuclear Medicine Centre.
+                            99mTc generators access for radiopharmaceutical preparation and storage, waste management, dose measurement (see  Dose Calibrator section) occur in a certified Vertical Laminar Flow throughout the whole workspace.
+                            Flexibility on shielding thickness and handling materials for Beta, Gamma and PET  Emitters.
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/Shielded Manipulation Cell.jpg" alt="Shielded Manipulation Cell" class="img
+" style="height: 500px">
+                        <div class="circle">
+                            <div class="circle-1">
+                                <div class="circle-2">
+                                    <div class="circle-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============= building pipeline area end here ===============-->
+
+    <!--============= building pipeline area end here ===============-->
+
+
+    <section class="building-pipeline-area padding-top-125 md-pd-top-70 padding-bottom-110">
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-part">
+                        <div class="section-title text-left padding-bottom-30">
+                            <h2 class="title" style="color: black">Gamma Counter</h2>
+                        </div>
+                        {{--                        <h2 style="color: black"> The Benchmark for 3D Pre-Treatment QA</h2>--}}
+
+
+                        {{--                        <strong>Powerful Patient-Specific QA</strong><br>--}}
+                        <p>MONOGAMMA Thyroid Uptake System is produced in two versions: one with moving collimator and one with static collimator. Both versions are equipped with GAMMAINTERFACE I/O unit, which allows data transmission between the 2" x 2” NaI(Tl) probe and a Personal Computer. The WUPTAKE software, supplied withMONOGAMMA runs under WINDOWS XP operating system and allows data acquisition and graphical elaboration, to organize a patients database and to perform a spectrum analysis  of any radioactive isotope wich may be employed..VIDEOGAMMA 4480 is an automatic gamma counter which combines the high measurement capacity of 480 tubes with 4 detectors. This gamma counter can also supply more precise measurements than those performed with a one detector system.
+
+                            VIDEOGAMMA Rack is the first apparatus of a new generation of gamma counters. It is the first device at all that allows measurements without needing to download the tubes from their rack. It is the first instrument in the world designed for carrying automatically tubes from their rack to the detection system. For the first time the area where measurement takes place and the area where tubes are positioned are separated. In this way any kind of interference is excluded.
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 md-pd-top-45">
+                    <div class="img-part">
+                        <img src="assets/img/products/Gamma Counter 2.jpg" alt="" class="img
+" style="height: 350px"><img src="assets/img/products/Gamma Counter.jpg" alt="" class="img
+" style="height: 340px">
                         <div class="circle">
                             <div class="circle-1">
                                 <div class="circle-2">
