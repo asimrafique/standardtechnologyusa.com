@@ -33,6 +33,10 @@ Route::get('/research-development', function () {
     return view('research-development');
 })->name('research-development');
 
+Route::get('/nuclear-medicine', function () {
+    return view('Nuclear_Medicine');
+})->name('Nuclear_Medicine');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

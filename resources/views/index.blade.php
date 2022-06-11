@@ -208,7 +208,7 @@
                             <div class="img-wrap">
                                 <img src="assets/img/technology/Dose calibrator.jpg" alt="">
                             </div>
-                            <p><strong>Nuclear Medicine QC Tools </strong></p>
+                            <p><strong style="padding-right: 138px;">Nuclear Medicine QC Tools </strong></p>
                         </div>
                         <div class="animated-img-box item-2">
                             <div class="img-wrap">
@@ -226,29 +226,29 @@
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center text-lg-left">
                     <div class="content-wrapper">
-                        <div class="text-wrapper">
+                        <div class="text-wrapper " style="padding-left: 25px;">
                             <div class="section-title text-center text-lg-left margin-bottom-55 md-mr-bottom-30">
                                 <h2 class="title">Technologies</h2>
                             </div>
-                            <h5 class="sub-title">We are Developing Life-Changing Therapies Through the Use of Our
+                            <h5 class="sub-title text-dark">We are Developing Life-Changing Therapies Through the Use of Our
                                 Proprietary Technologies.</h5>
                             <p>We are in the field of Nuclear Medicine, Radiation Oncology, Radiation Protection, General
                                 Hospital Equipment, Health Imaging, Neurosurgery and Laboratory products, Industrial
                                 (Cutting Tools, Drills, Bits, Machines, Cutters etc) & Information Technology (PCs,
                                 Printers, Scanners, Switches and others).
                             </p>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quia soluta cum.
-                                Perspiciatis, dicta cumque. Deserunt fugiat et ducimus delectus debitis vel iste? Amet
-                                doloribus, aut facere, saepe hic eaque nostrum praesentium repellendus dignissimos
-                                accusantium nisi, voluptatum earum! Sapiente tenetur eaque cumque minima iste pariatur
-                                doloremque quas provident architecto et!</p>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quia soluta cum.
-                                Perspiciatis, dicta cumque. Deserunt fugiat et ducimus delectus debitis vel iste? Amet
-                                doloribus, aut facere, saepe hic eaque nostrum praesentium repellendus dignissimos
-                                accusantium nisi, voluptatum earum! Sapiente tenetur eaque cumque minima iste pariatur
-                                doloremque quas provident architecto et!</p>
+                            <p><b> Enabling Healthier Lives </b><br>
+                                Our mission is to enable healthier lives by improving the avoidance, detection and treatment of cancer.
+
+                                We deliver Patient Safety solutions for Diagnostic Imaging and Radiation Therapy centers globally.</p>
+                            <p> <b>Independence & Integration</b> <br>
+                                We believe independence and integration are equally critical to Quality Management for today's hospitals, cancer centers and healthcare networks.
+
+                                Independence provides unbiased assurance issues will be caught.
+
+                                Seamless integration with technologies and workflows is how we simplify, standardize and automate processes, for less subjectivity and greater overall efficiency.</p>
                         </div>
-                        <div class="btn-wrapper">
+                        <div class="btn-wrapper pl-4 ">
                             <a href="#" class="boxed-btn">Read More</a>
                         </div>
                     </div>
@@ -318,9 +318,7 @@
                     <div class="join-us-content home-4-join-us-content">
                         <div class="left-bg-2">
                             <h2 class="title">Our Team</h2>
-                            <p>At Jozicular Oncology, we are committed to progressing the field of immunotherapy, with a
-                                goal to eradicate cancer by initially developing personalized immunotherapies that focus on
-                                the unique and individual nature of a patient’s tumor.</p>
+                            <p>Standard Technology provides the industry’s most advanced services and support program. Working with you and your team to quickly and consistently ensure results, together we protect Patient Safety.</p>
 
                         </div>
                         <div class="btn-wrapper md-pd-top-20">
@@ -605,135 +603,135 @@
     <!--============= Therapy area end here ===============-->
 
     <!--============= our News area start here ===============-->
-    <section class="tab-area padding-top-75 md-pd-top-20 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title margin-bottom-55 md-mr-bottom-25">
-                        <h2 class="title">The Latest Spotlight</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="news-filter home4-news-filter">
-                        <!--                        <div class="button-group filters-button-group margin-bottom-55 md-mr-bottom-25">-->
-                        <!--                            <button class="button  is-checked" data-filter="*">All</button>-->
-                        <!--                            <button class="button" data-filter=".media">Media</button>-->
-                        <!--                            <button class="button" data-filter=".news">News</button>-->
-                        <!--                            <button class="button" data-filter=".event">Event</button>-->
-                        <!--                            <button class="button" data-filter=".publications">Publications</button>-->
-                        <!--                        </div>-->
+{{--    <section class="tab-area padding-top-75 md-pd-top-20 ">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-12">--}}
+{{--                    <div class="section-title margin-bottom-55 md-mr-bottom-25">--}}
+{{--                        <h2 class="title t">The Latest Spotlight</h2>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-12">--}}
+{{--                    <div class="news-filter home4-news-filter">--}}
+{{--                        <!--                        <div class="button-group filters-button-group margin-bottom-55 md-mr-bottom-25">-->--}}
+{{--                        <!--                            <button class="button  is-checked" data-filter="*">All</button>-->--}}
+{{--                        <!--                            <button class="button" data-filter=".media">Media</button>-->--}}
+{{--                        <!--                            <button class="button" data-filter=".news">News</button>-->--}}
+{{--                        <!--                            <button class="button" data-filter=".event">Event</button>-->--}}
+{{--                        <!--                            <button class="button" data-filter=".publications">Publications</button>-->--}}
+{{--                        <!--                        </div>-->--}}
 
-                        <div class="grid row">
-                            <div class="element-item col-md-6 event publications  ">
-                                <div class="news-item style-3">
-                                    <div class="img-warpper ">
-                                        <img src="assets/img/news-and-media/7.png" alt="">
-                                        <div class="overlay">
-                                            <div class="icon-wrap">
-                                                <a href="assets/img/news-and-media/7.png" class="image-popup"> <i
-                                                        class="flaticon-full-screen"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-wrap">
-                                        <!--                                            <div class="date-with-writter">-->
-                                        <!--                                                <p class="published-date"><strong>Published : </strong> 5 September 2019-->
-                                        <!--                                                </p>-->
-                                        <!--                                                <p><strong>By </strong> kalapian moi</p>-->
-                                        <!--                                            </div>-->
+{{--                        <div class="grid row">--}}
+{{--                            <div class="element-item col-md-6 event publications  ">--}}
+{{--                                <div class="news-item style-3">--}}
+{{--                                    <div class="img-warpper ">--}}
+{{--                                        <img src="assets/img/news-and-media/7.png" alt="">--}}
+{{--                                        <div class="overlay">--}}
+{{--                                            <div class="icon-wrap">--}}
+{{--                                                <a href="assets/img/news-and-media/7.png" class="image-popup"> <i--}}
+{{--                                                        class="flaticon-full-screen"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="content-wrap">--}}
+{{--                                        <!--                                            <div class="date-with-writter">-->--}}
+{{--                                        <!--                                                <p class="published-date"><strong>Published : </strong> 5 September 2019-->--}}
+{{--                                        <!--                                                </p>-->--}}
+{{--                                        <!--                                                <p><strong>By </strong> kalapian moi</p>-->--}}
+{{--                                        <!--                                            </div>-->--}}
 
-                                        <!--                                            <ul class="post-meta">-->
-                                        <!--                                                <li><a href="#"><i class="flaticon-black-bubble-speech"></i> Comment</a>-->
-                                        <!--                                                </li>-->
-                                        <!--                                                <li><a href="#"><i class="flaticon-eye"></i> 230 View</a></li>-->
-                                        <!--                                            </ul>-->
-                                        <h5 class="title">
-                                            Online Diploma.
-                                        </h5>
-                                        <p>Standard Technology offers most of free online diploma programs in categories in
-                                            Medical Technology.
-                                        </p>
-                                        <div class="btn-wrapper">
-                                            <a href="#" class="boxed-btn">Read More</a>
-                                        </div>
+{{--                                        <!--                                            <ul class="post-meta">-->--}}
+{{--                                        <!--                                                <li><a href="#"><i class="flaticon-black-bubble-speech"></i> Comment</a>-->--}}
+{{--                                        <!--                                                </li>-->--}}
+{{--                                        <!--                                                <li><a href="#"><i class="flaticon-eye"></i> 230 View</a></li>-->--}}
+{{--                                        <!--                                            </ul>-->--}}
+{{--                                        <h5 class="title">--}}
+{{--                                            Online Diploma.--}}
+{{--                                        </h5>--}}
+{{--                                        <p>Standard Technology offers most of free online diploma programs in categories in--}}
+{{--                                            Medical Technology.--}}
+{{--                                        </p>--}}
+{{--                                        <div class="btn-wrapper">--}}
+{{--                                            <a href="#" class="boxed-btn">Read More</a>--}}
+{{--                                        </div>--}}
 
-                                    </div>
+{{--                                    </div>--}}
 
-                                </div>
-                            </div>
-                            <div class="element-item col-md-6 media  news ">
-                                <div class="news-item style-3">
-                                    <div class="img-warpper ">
-                                        <img src="assets/img/news-and-media/event44.jpg" alt="">
-                                        <div class="overlay">
-                                            <div class="icon-wrap">
-                                                <a href="assets/img/news-and-media/event44.jpg" class="image-popup"> <i
-                                                        class="flaticon-full-screen"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-wrap">
-                                        <!--                                            <div class="date-with-writter">-->
-                                        <!--                                                <p class="published-date"><strong>Published : </strong> 5 September 2019-->
-                                        <!--                                                </p>-->
-                                        <!--                                                <p><strong>By </strong> kalapian moi</p>-->
-                                        <!--                                            </div>-->
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="element-item col-md-6 media  news ">--}}
+{{--                                <div class="news-item style-3">--}}
+{{--                                    <div class="img-warpper ">--}}
+{{--                                        <img src="assets/img/news-and-media/event44.jpg" alt="">--}}
+{{--                                        <div class="overlay">--}}
+{{--                                            <div class="icon-wrap">--}}
+{{--                                                <a href="assets/img/news-and-media/event44.jpg" class="image-popup"> <i--}}
+{{--                                                        class="flaticon-full-screen"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="content-wrap">--}}
+{{--                                        <!--                                            <div class="date-with-writter">-->--}}
+{{--                                        <!--                                                <p class="published-date"><strong>Published : </strong> 5 September 2019-->--}}
+{{--                                        <!--                                                </p>-->--}}
+{{--                                        <!--                                                <p><strong>By </strong> kalapian moi</p>-->--}}
+{{--                                        <!--                                            </div>-->--}}
 
-                                        <!--                                            <ul class="post-meta">-->
-                                        <!--                                                <li><a href="#"><i class="flaticon-black-bubble-speech"></i> Comment</a>-->
-                                        <!--                                                </li>-->
-                                        <!--                                                <li><a href="#"><i class="flaticon-eye"></i> 230 View</a></li>-->
-                                        <!--                                            </ul>-->
-                                        <h5 class="title">
-                                            E-Learning (Webinar).
-                                        </h5>
-                                        <p>Learning conducted via electronic media, typically on the internet with
-                                            presentations etc.
-                                        </p>
-                                        <div class="btn-wrapper">
-                                            <a href="#" class="boxed-btn">Read More</a>
-                                        </div>
+{{--                                        <!--                                            <ul class="post-meta">-->--}}
+{{--                                        <!--                                                <li><a href="#"><i class="flaticon-black-bubble-speech"></i> Comment</a>-->--}}
+{{--                                        <!--                                                </li>-->--}}
+{{--                                        <!--                                                <li><a href="#"><i class="flaticon-eye"></i> 230 View</a></li>-->--}}
+{{--                                        <!--                                            </ul>-->--}}
+{{--                                        <h5 class="title">--}}
+{{--                                            E-Learning (Webinar).--}}
+{{--                                        </h5>--}}
+{{--                                        <p>Learning conducted via electronic media, typically on the internet with--}}
+{{--                                            presentations etc.--}}
+{{--                                        </p>--}}
+{{--                                        <div class="btn-wrapper">--}}
+{{--                                            <a href="#" class="boxed-btn">Read More</a>--}}
+{{--                                        </div>--}}
 
-                                    </div>
+{{--                                    </div>--}}
 
-                                </div>
-                            </div>
+{{--                                </div>--}}
+{{--                            </div>--}}
 
 
-                        </div>
+{{--                        </div>--}}
 
-                        <div class="animated-item style-2">
-                            <div class="animate-img">
-                                <img src="assets/img/news/animate.svg" alt="">
-                            </div>
+{{--                        <div class="animated-item style-2">--}}
+{{--                            <div class="animate-img">--}}
+{{--                                <img src="assets/img/news/animate.svg" alt="">--}}
+{{--                            </div>--}}
 
-                        </div>
-                        <div class="animated-item style-2 item-2">
-                            <div class="animate-img">
-                                <img src="assets/img/news/animate.svg" alt="">
-                            </div>
+{{--                        </div>--}}
+{{--                        <div class="animated-item style-2 item-2">--}}
+{{--                            <div class="animate-img">--}}
+{{--                                <img src="assets/img/news/animate.svg" alt="">--}}
+{{--                            </div>--}}
 
-                        </div>
-                        <div class="animated-item style-2 item-3">
-                            <div class="animate-img">
-                                <img src="assets/img/news/animate.svg" alt="">
-                            </div>
+{{--                        </div>--}}
+{{--                        <div class="animated-item style-2 item-3">--}}
+{{--                            <div class="animate-img">--}}
+{{--                                <img src="assets/img/news/animate.svg" alt="">--}}
+{{--                            </div>--}}
 
-                        </div>
+{{--                        </div>--}}
 
-                    </div>
-                </div>
-            </div>
-        </div>
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-    </section>
+{{--    </section>--}}
     <!--============= our News area end here ===============-->
     <div class="row">
         <div class="col-lg-12">
             <div class="section-title  ">
-                <h2 class="title">Partners</h2>
+                <h2 class="title" style="color: black">Partners</h2>
             </div>
         </div>
     </div>

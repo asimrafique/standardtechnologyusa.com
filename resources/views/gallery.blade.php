@@ -31,9 +31,8 @@
                         </div>
                         <h5 class="sub-title">We are Developing Life-Changing Therapies Through the Use of Our
                             Proprietary Technologies.</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-                        </p>
-                        <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+
+                        <p>Participation in Exhibitions & Symposiums in Pakistan</p>
                     </div>
                 </div>
             </div>
@@ -64,11 +63,12 @@
                         <div class="section-title text-left padding-bottom-15">
                             <h2 class="title">Focus</h2>
                         </div>
-                        <p>loram
+                        <p>Training
                         </p>
-                        <p>These antigens, called tumor-specific neoantigens, offer attractive therapeutic targets
-                            because they are non-self and tumor-specific, and are key targets.
-                        </p>
+                        <p>TLD and OSL Reader (manual and automatic) for different application (e.g. personnel dosimetry, environmental monitoring, radiotherapy, research, irradiated food,...)
+                            <br>TLD Material based on LiF:Mg,Ti and LiF:Mg,Cu,P, other material on request
+                           <br> Irradiator for single TLDs, <br>TLD-cards or OSL-cards (tailored to your needs)
+                            TLD oven</p>
                     </div>
                 </div>
             </div>

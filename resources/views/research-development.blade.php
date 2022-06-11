@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title margin-bottom-50 md-mr-bottom-45">
-                        <h2 class="title">Products</h2>
+                        <h2 class="title text-dark">Products</h2>
                     </div>
                 </div>
             </div>
