@@ -245,7 +245,7 @@ Pakistan.
                                     </ul>
                                 </li>
                                 <li><a href="{{route('Nuclear_Medicine')}}">Nuclear Medicine</a></li>
-                                <li><a href="Radiotherapy%20Accessories.html">Radiology</a></li>
+                                <li><a href="{{route('Radiotherapy')}}">Radiology</a></li>
                                 <li><a href="Radiotherapy%20Accessories.html">Personal Dosimetry</a></li>
                                 <li><a href="Radiotherapy%20Accessories.html">Breast Imaging</a></li>
                             </ul>

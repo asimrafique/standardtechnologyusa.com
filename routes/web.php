@@ -37,6 +37,10 @@ Route::get('/nuclear-medicine', function () {
     return view('Nuclear_Medicine');
 })->name('Nuclear_Medicine');
 
+Route::get('/Radiotherapy', function () {
+    return view('Radiotherapy');
+})->name('Radiotherapy');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
