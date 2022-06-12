@@ -41,6 +41,14 @@ Route::get('/Radiotherapy', function () {
     return view('Radiotherapy');
 })->name('Radiotherapy');
 
+Route::get('/Breast-Imaging', function () {
+    return view('BreastImaging');
+})->name('Breast-Imaging');
+
+Route::get('/Personal-Dosimetry', function () {
+    return view('PersonalDosimetry');
+})->name('Personal-Dosimetry');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

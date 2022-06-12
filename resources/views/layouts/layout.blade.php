@@ -206,7 +206,7 @@ Pakistan.
                     </div>
                     <div class="logo-wrapper d-block d-lg-none">
                         <a href="{{route('root')}}" class="logo">
-                            <img src="assets/img/logo/logo2.png" alt="logo">
+                            <img src="assets/img/logo/logo.png" alt="logo">
                         </a>
                     </div>
 
@@ -246,8 +246,8 @@ Pakistan.
                                 </li>
                                 <li><a href="{{route('Nuclear_Medicine')}}">Nuclear Medicine</a></li>
                                 <li><a href="{{route('Radiotherapy')}}">Radiology</a></li>
-                                <li><a href="Radiotherapy%20Accessories.html">Personal Dosimetry</a></li>
-                                <li><a href="Radiotherapy%20Accessories.html">Breast Imaging</a></li>
+                                <li><a href="{{route('Personal-Dosimetry')}}">Personal Dosimetry</a></li>
+                                <li><a href="{{route('Breast-Imaging')}}">Breast Imaging</a></li>
                             </ul>
                         </li>
 

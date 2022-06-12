@@ -73,9 +73,9 @@
                             <!--                            <p><strong>Published :</strong> 20 September 2019</p>-->
                             <h3 class="title">Radiology</h3>
                             <p>We provides the hospital industry with technologically advanced radiation protection by offering products that set the standard for lightweight material and safety. Developed with DuPont technology, the products carry a longstanding reputation of radiation protection innovation. As the world’s first lightweight, multi-element, composite x-ray protection material to replace lead-vinyl, we have remained committed to developing high-quality protective products that lead the market in quality standards and compliance....</p>
-                            <div class="btn-wrapper">
+                            <a href="{{route('Personal-Dosimetry')}}" class="btn-wrapper">
                                 <button class="boxed-btn" type="button">Read More</button>
-                            </div>
+                            </a>
                         </div>
 
                     </div>
@@ -98,9 +98,9 @@
                                 ...
                                 <br>
                             </p>
-                            <div class="btn-wrapper">
+                            <a href="{{route('Personal-Dosimetry')}}" class="btn-wrapper">
                                 <button class="boxed-btn" type="button">Read More</button>
-                            </div>
+                            </a>
                         </div>
 
                     </div>
@@ -115,9 +115,9 @@
                             <h3 class="title">Breast Diagnostic Treatment
                             </h3>
                             <p>SENNEX® ECT is a quick procedure which can be done under local or general anesthesia. It usually takes about 20 to 30 minutes. When done under local anesthesia, the patient can be sent home after an observation period of a few hours. Patients may experience minor pain after the procedure. This pain can usually be managed with routine painkillers. Antibiotics are usually not required, but can be recommended for some patients...</p>
-                            <div class="btn-wrapper">
+                            <a href="{{route('Breast-Imaging')}}" class="btn-wrapper">
                                 <button class="boxed-btn" type="button">Read More</button>
-                            </div>
+                            </a>
                         </div>
 
                     </div>
@@ -131,9 +131,9 @@
                             <!--                            <p><strong>Published :</strong> 20 September 2019</p>-->
                             <h3 class="title">Breast PET Imaging</h3>
                             <p>The Breast PET scanner (also called positron emission mammography or PEM) produces high-resolution images, with far more detail than conventional breast imaging. By producing tomographic images of lesions with resolution down to 1.6 mm (approximately the size of a grain of rice), this technology provides valuable clinical data on invasive and non-invasive disease across the continuum of care. From initial staging to ongoing post-surgical disease management, CMR Molecular Imaging’s high-resolution Breast PET Scanner provides a metabolic perspective allowing physicians to provide optimal patient outcomes....</p>
-                            <div class="btn-wrapper">
+                            <a href="{{route('Breast-Imaging')}}" class="btn-wrapper">
                                 <button class="boxed-btn" type="button">Read More</button>
-                            </div>
+                            </a>
                         </div>
 
                     </div>
