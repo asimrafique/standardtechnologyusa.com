@@ -29,9 +29,9 @@ Route::get('/contact-us', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');
-Route::get('/research-development', function () {
+Route::get('/products', function () {
     return view('research-development');
-})->name('research-development');
+})->name('products');
 
 Route::get('/nuclear-medicine', function () {
     return view('Nuclear_Medicine');
@@ -49,6 +49,11 @@ Route::get('/Personal-Dosimetry', function () {
     return view('PersonalDosimetry');
 })->name('Personal-Dosimetry');
 
+Route::get('/about-us', function () {
+    return view('about');
+})->name('about-us');
 Auth::routes();
+Route::post('contact/email', 'App\Http\Controllers\EmailController@contactEmail')->name('contact.email');
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

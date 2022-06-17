@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Standard Technology (USA-PAk)</title>
+    <title>Standard Technology (USA-PAK)</title>
     <!-- favicon -->
     <link rel=icon href="assets/img/logo/favicon.png" sizes="20x20" type="image/png">
     <!-- animate -->
@@ -233,7 +233,7 @@ Pakistan.
 
                         <li class="menu-item-has-children"><a href="#">Products</a>
                             <ul class="sub-menu">
-                                <li><a href="{{route('research-development')}}">Products List</a></li>
+                                <li><a href="{{route('products')}}">Products List</a></li>
 
                                 <li class="menu-item-has-children current-menu-item "><a>Radiotherapy Accessories</a>
                                     <ul class="sub-menu">
@@ -246,7 +246,7 @@ Pakistan.
                                 </li>
                                 <li><a href="{{route('Nuclear_Medicine')}}">Nuclear Medicine</a></li>
                                 <li><a href="{{route('Radiotherapy')}}">Radiology</a></li>
-                                <li><a href="{{route('Personal-Dosimetry')}}">Personal Dosimetry</a></li>
+                               <li><a href="{{route('Personal-Dosimetry')}}">Personal Dosimetry</a></li>
                                 <li><a href="{{route('Breast-Imaging')}}">Breast Imaging</a></li>
                             </ul>
                         </li>
@@ -416,14 +416,25 @@ Pakistan.
             <div class="footer-widget-content-wrapper">
                 <div class="footer-widget-content">
                     <div class="footer-widget widget">
-                        <div class="about_us_widget padding-bottom-10">
-                            <a href="{{route('root')}}" class="footer-logo"> <img src="assets/img/logo/logo.png"
-                                                                             alt="footer logo"></a>
+                        <div class="responsive-mobile-menu">
+                            <div class="logo-wrapper d-none d-lg-block">
+                                <a href="http://stusa.test" class="logo">
+                                    <img src="assets/img/logo/logo.png" style="width:326px ;height : 60px" alt="logo">
+                                </a>
+                            </div>
+                            <div class="logo-wrapper d-block d-lg-none">
+                                <a href="http://stusa.test" class="logo">
+                                    <img src="assets/img/logo/logo.png" alt="logo">
+                                </a>
+                            </div>
+
+
+
                         </div>
                         <div class="footer-widget widget widget_nav_menu ">
                             <ul class="footer-link">
-                                <li><a href="#">About</a></li>
-                                <li><a href="{{route('research-development')}}">Research</a></li>
+                                <li><a href="{{route('about-us')}}">About Us</a></li>
+                                <li><a href="{{route('products')}}">Products</a></li>
                                 <li><a href="{{route('contact')}}">Contact Us</a></li>
                             </ul>
                         </div>

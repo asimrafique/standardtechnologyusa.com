@@ -6,7 +6,7 @@
         <div class="showcase4-main">
             <div class="content-part">
                 <div class="showcase4-slider">
-                    <div class="showcase4-slider-item">
+                    <div class="showcase4-slider-item" >
                         <div class="showcase4-slider-item-inner bg-image" data-bg="assets/img/home4-slider/slider-4-1.jpg">
                             <div class="nav-container">
                                 <div class="row align-items-center">
@@ -18,7 +18,7 @@
                                                     Management for today's hospitals, cancer centers and healthcare
                                                     networks.</p>
                                                 <div class="btn-wrapper">
-                                                    <a href="about-us.html" class="boxed-btn">Read More</a>
+                                                    <a href="{{route('about-us')}}" class="boxed-btn">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -162,7 +162,7 @@
                             </p>
                         </div>
                         <div class="btn-wrapper">
-                            <a href="#" class="boxed-btn">Read More</a>
+                            <a href="{{route('about-us')}}" class="boxed-btn">Read More</a>
                         </div>
                         <div class="animated-item style-2">
                             <div class="animate-img ">
@@ -248,9 +248,9 @@
 
                                 Seamless integration with technologies and workflows is how we simplify, standardize and automate processes, for less subjectivity and greater overall efficiency.</p>
                         </div>
-                        <div class="btn-wrapper pl-4 ">
-                            <a href="#" class="boxed-btn">Read More</a>
-                        </div>
+{{--                        <div class="btn-wrapper pl-4 ">--}}
+{{--                            <a href="#" class="boxed-btn">Read More</a>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -282,9 +282,9 @@
                                 offer the best solutions to achieve their goals.
                             </p>
                         </div>
-                        <div class="btn-wrapper">
-                            <a href="#" class="boxed-btn">Read More</a>
-                        </div>
+{{--                        <div class="btn-wrapper">--}}
+{{--                            <a href="#" class="boxed-btn">Read More</a>--}}
+{{--                        </div>--}}
                         <!--                        <div class="animated-item">-->
                         <!--                            <div class="animate-img">-->
                         <!--                                <img src="assets/img/pipeline/animate.png" alt="">-->
@@ -321,9 +321,9 @@
                             <p>Standard Technology provides the industry’s most advanced services and support program. Working with you and your team to quickly and consistently ensure results, together we protect Patient Safety.</p>
 
                         </div>
-                        <div class="btn-wrapper md-pd-top-20">
-                            <button class="boxed-btn">Join us</button>
-                        </div>
+{{--                        <div class="btn-wrapper md-pd-top-20">--}}
+{{--                            <button class="boxed-btn">Join us</button>--}}
+{{--                        </div>--}}
 
                     </div>
 
@@ -533,55 +533,67 @@
         </div>
     </section>
     <!--============= Meet team area end here ===============-->
-
+<style>
+    .heading-color{
+        color: black;
+    }
+</style>
     <!--============= Therapy area start here ===============-->
-    <section class="therapy-box-area padding-top-110 md-pd-top-45">
+    <section class="therapy-box-area padding-top-110 md-pd-top-45 mb-5">
         <div class="nav-container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title margin-bottom-60 md-mr-bottom-35">
-                        <h2 class="title">Our Therapy</h2>
+                        <h2 class="title" style="color: black">Our Technologies</h2>
                     </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="therapy-box">
+                   <a href="{{route('Radiotherapy_Accessories')}}">
+
+                  <div class="therapy-box">
                         <div class="icon-wrap">
                             <img src="assets/img/icon-img/1 Radiotherapy.png">
                         </div>
                         <div class="content-wrap">
-                            <h5>Radiotherapy</h5>
+                            <h5 class="heading-color">Radiotherapy</h5>
                             <!--                            <p>Routine FFPE clinical biopsy as input material</p>-->
                         </div>
                     </div>
+                   </a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="therapy-box">
+                  <a href="{{route('Nuclear_Medicine')}}">
+                      <div class="therapy-box">
                         <div class="icon-wrap">
                             <img src="assets/img/icon-img/2%20Nuclear%20Mecidine%20.png">
 
                         </div>
                         <div class="content-wrap">
-                            <h5>Nuclear Medicine</h5>
+                            <h5 class="heading-color">Nuclear Medicine</h5>
                             <!--                            <p>Jozicular EDGE™ AI model for tumor antigen prediction</p>-->
                         </div>
                     </div>
+                  </a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="therapy-box">
+                   <a href="{{route('Breast-Imaging')}}"> <div class="therapy-box">
                         <div class="icon-wrap">
                             <img src="assets/img/icon-img/5 Breast Imaging & Treatment.png">
 
                         </div>
                         <div class="content-wrap">
-                            <h5>Diagnostic</h5>
+                            <h5 class="heading-color">Breast Imaging</h5>
                             <!--                            <p>Tumor exome Normal exome Tumor transcriptome</p>-->
                         </div>
                     </div>
+                   </a>
                 </div>
                 <div class="col-lg-3 col-md-6">
+
+                   <a href="{{route('Personal-Dosimetry')}}" >
                     <div class="therapy-box">
                         <div class="icon-wrap">
                             <img src="assets/img/icon-img/4 Personal Dosimetry.png">
@@ -589,10 +601,11 @@
 
                         </div>
                         <div class="content-wrap">
-                            <h5>Radiology</h5>
+                            <h5 class="heading-color" >Personal Dosimetry</h5>
                             <!--                            <p>Patient specific predicted neoantigens inserted </p>-->
                         </div>
                     </div>
+                   </a>
                 </div>
 
             </div>
@@ -728,10 +741,10 @@
 
 {{--    </section>--}}
     <!--============= our News area end here ===============-->
-    <div class="row">
+    <div class="row mt-5 pt-4">
         <div class="col-lg-12">
             <div class="section-title  ">
-                <h2 class="title" style="color: black">Partners</h2>
+                <h2 class="title" style="color: black">Exclusive Partners</h2>
             </div>
         </div>
     </div>

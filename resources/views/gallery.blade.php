@@ -9,7 +9,7 @@
                 <div class="breadcrumb-inner">
                     <h2 class="page-title">Gallery</h2>
                     <ul class="page-list">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{route('root')}}">Home</a></li>
                         <li class="current">Gallery</li>
                     </ul><!-- .breadcrumbs -->
                 </div>

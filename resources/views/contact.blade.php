@@ -8,7 +8,7 @@
                     <div class="breadcrumb-inner dark-blue">
                         <h2 class="page-title white-effect">Contact Us</h2>
                         <ul class="page-list white-effect">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{route('root')}}">Home</a></li>
                             <li class="current">Contact Us</li>
                         </ul><!-- .breadcrumbs -->
                     </div>
@@ -17,7 +17,11 @@
         </div>
     </div>
     <!--============= breadcrumb end here ===============-->
-
+<style>
+    .heading{
+        color: black;
+    }
+</style>
     <!--============= contact-info area start here ===============-->
     <section class="contact-info-area padding-top-120 md-pd-top-70 margin-bottom-125 md-mr-bottom-80">
         <div class="nav-container">
@@ -26,7 +30,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-title text-left margin-bottom-40 md-mr-bottom-20">
-                                <h2 class="title">Get in Touch</h2>
+                                <h2 class="title heading">Get in Touch</h2>
                             </div>
                         </div>
                     </div>
@@ -77,17 +81,21 @@
                 </div>
                 <div class="col-lg-6 border-left pt-5 pt-lg-0">
                     <div class="section-title text-left margin-bottom-60 md-mr-bottom-35">
-                        <h2 class="title">Send your Message</h2>
+                        <h2 class="title heading">Send your Message</h2>
                     </div>
-                    <form class="contact-from style-2" id="contact-form" action="http://zwin.io/html/jozicular/mail.php" method="post">
+                    <form class="contact-from style-2" id="contact-form" action="{{route('contact.email')}}" method="post">
+                       @csrf
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" placeholder="Fast Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Last Name">
+                            <input type="text" name="name" class="form-control" placeholder="Name">
                         </div>
                         <div class="form-group">
                             <input type="email" name="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" name="phone" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" class="form-control" placeholder="Subject">
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" rows="4" placeholder="Comment"></textarea>

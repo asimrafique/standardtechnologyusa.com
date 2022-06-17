@@ -10,9 +10,9 @@
                     <div class="breadcrumb-inner dark-blue">
                         <h3 class="page-title white-effect">Radiotherapy Accessories</h3>
                         <ul class="page-list white-effect">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{route('root')}}">Home</a></li>
                             <li class="current">Radiotherapy Accessories</li>
-                            <li><a href="index.html">Immobolization Devices</a></li>
+                            <li><a href={{route('root')}}">Immobolization Devices</a></li>
                         </ul><!-- .breadcrumbs -->
                     </div>
                 </div>

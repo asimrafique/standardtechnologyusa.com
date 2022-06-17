@@ -9,7 +9,7 @@
                     <div class="breadcrumb-inner">
                         <h2 class="page-title">Products</h2>
                         <ul class="page-list">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{route('root')}}">Home</a></li>
                             <li class="current">Products</li>
                         </ul><!-- .breadcrumbs -->
                     </div>
@@ -57,9 +57,9 @@
                             <!--                            <p><strong>Published :</strong> 20 September 2019</p>-->
                             <h3 class="title">Nuclear Medicine</h3>
                             <p><br> The  PC-based dose calibrators such as ISOMED 2010 are used for fast and precise activity or volume activity determination of all radiopharmaceuticals used in nuclear medicine...</p>
-                            <div class="btn-wrapper">
+                            <a  href="{{route('Nuclear_Medicine')}}" class="btn-wrapper">
                                 <button class="boxed-btn" type="button">Read More</button>
-                            </div>
+                            </a>
                         </div>
 
                     </div>
