@@ -48,7 +48,7 @@ Version: 1.0.0
 --------------------------------------------------------------*/
 :root {
   --main-color-one: #15c0e8;
-  --heading-color: #ffffff;
+  --heading-color: #000000;
   --paragraph-color: #666;
   --bg-color: #1e2a29;
   --hover-color: #039dc0;
